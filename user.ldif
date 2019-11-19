@@ -1,4 +1,4 @@
-dn: uid=Teo,ou=pilotos,cn=malakor,cn=sith
+dn: uid=Teo,ou=guerreros,dc=malakor,dc=sith
 objectClass:inetOrgPerson
 objectClass:shadowAccount
 objectClass:posixAccount
@@ -14,7 +14,8 @@ shadowMin: 1
 shadowWarning: 7
 shadowInactive: 7
 shadowLastChange: 0
-dn: cn=Teo,ou=pilotos,dc=malakor,dc=sith
+
+dn: cn=Teo,ou=guerreros,dc=malakor,dc=sith
 objectClass: posixGroup
 cn: Teo
 gidNumber: 10000
