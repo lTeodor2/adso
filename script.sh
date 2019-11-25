@@ -33,4 +33,4 @@ echo	cn: $nom >> user.ldif
 echo	gidNumber: $var_ngid >> user.ldif
 echo	memberUid: $nom >> user.ldif
 
-ldapadd -x -D cn="admin",dc=$var_dc1,dc=$var_dc2 -W -f user.ldif
+#ldapadd -x -D cn="admin",dc=$var_dc1,dc=$var_dc2 -W -f user.ldif
