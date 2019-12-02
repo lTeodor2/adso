@@ -1,0 +1,3 @@
+dn: ou=Prueba,dc=Tuna,dc=ally
+objectClass: organizationalUnit
+ou: Prueba

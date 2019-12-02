@@ -1,22 +1,22 @@
-dn: uid=Teo,ou=guerreros,dc=malakor,dc=sith
+dn: uid=asd,ou=guerreros,dc=malakor,dc=sith
 objectClass:inetOrgPerson
 objectClass:shadowAccount
 objectClass:posixAccount
-cn:Teo
-sn:Pugna
-uid:Teo
-userPassword:Teo
+cn:asd
+sn:asd
+uid:asd
+userPassword:asd
 uidNumber:10000
 gidNumber:10000
-homeDirectory: /home/Teo
+homeDirectory: /home/asd
 shadowMax: 60
 shadowMin: 1
 shadowWarning: 7
 shadowInactive: 7
 shadowLastChange: 0
 
-dn: cn=Teo,ou=guerreros,dc=malakor,dc=sith
+dn: cn=asd,ou=guerreros,dc=malakor,dc=sith
 objectClass: posixGroup
-cn: Teo
+cn: asd
 gidNumber: 10000
-memberUid: Teo
+memberUid: asd
